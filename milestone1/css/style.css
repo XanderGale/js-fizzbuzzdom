@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b3b4b;
+}
+
+header{
+    margin: 20px auto;
+
+    text-align: center;
+}
+
+h1{
+    color: white;
+
+    font-size: 40px;
+}
+
+/* Main */
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    margin: auto;
+
+    color: white;
+}
+.box{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 150px;
+    width: 150px;
+
+    margin: 5px;
+
+    font-size: 30px;
+}
+.box.number{
+    background-color: #1389b2;
+}
+.box.fizz{
+    background-color: #0bd6a1;
+}
+.box.buzz{
+    background-color: #ffd166;
+}
+.box.fizzbuzz{
+    background-color: #f0466f;
+}
