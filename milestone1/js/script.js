@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
 console.log(container);
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     console.log(i);
 
     const boxNumber = `<div class="box number">${i}</div>`;
